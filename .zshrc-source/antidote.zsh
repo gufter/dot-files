@@ -1,0 +1,1 @@
+/usr/local/opt/antidote/share/antidote/antidote.zsh

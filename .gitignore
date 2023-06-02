@@ -1,0 +1,36 @@
+# Ignore base directory files and folders.
+/[a-zA-Z0-9]*
+
+# Dot files not to track.
+.CFUserTextEncoding
+.cache
+.config/javascripting
+.config/learnyounode
+.config/nvim
+.config/op
+.config/workshopper
+.cumulusci
+.idlerc
+.iterm2
+.jenv
+.lesshst
+.local
+.npm
+.nvm
+.python_history
+.receitanet
+.redhat
+.rfb
+.sf
+.sfdx
+.ssh
+.terminfo
+.vim
+.viminfo
+.vimrc
+.vscode
+zsh-backup*
+.zcompdump
+.zsh_history
+.zsh_plugins.zsh
+.zsh_sessions
