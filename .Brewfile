@@ -1,6 +1,7 @@
 ### Brewfile - one command, full setup ###
 
 # Taps
+tap "buo/cask-upgrade"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -9,9 +10,11 @@ tap "homebrew/command-not-found"
 
 # Formulae
 brew "antidote"
+brew "exa"
 brew "fzf"
 brew "git"
 brew "jenv"
+brew "lazygit"
 brew "mas"
 brew "neovim"
 brew "nvm"
@@ -19,6 +22,7 @@ brew "openjdk@17"
 brew "python@3.11"
 brew "pipx"
 brew "python-tk@3.11"
+brew "rustup-init"
 brew "zsh"
 
 # Casks

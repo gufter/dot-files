@@ -4,6 +4,7 @@
 # Dot files not to track.
 .CFUserTextEncoding
 .cache
+.cargo
 .config/javascripting
 .config/learnyounode
 .config/nvim
@@ -11,6 +12,7 @@
 .config/workshopper
 .cumulusci
 .idlerc
+.irpf
 .iterm2
 .jenv
 .lesshst
@@ -21,6 +23,7 @@
 .receitanet
 .redhat
 .rfb
+.rustup
 .sf
 .sfdx
 .ssh
@@ -28,8 +31,8 @@
 .Trash
 .vim
 .viminfo
-.vimrc
 .vscode
+.vscode-cli
 zsh-backup*
 .zcompdump
 .zsh_history

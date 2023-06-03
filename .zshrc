@@ -7,7 +7,9 @@ p10k_cpath=/.cache/p10k-instant-prompt-${(%):-%n}.zsh
 [ ! -f $p10k_cpath ] || source $p10k_cpath
 
 # Shows all paths with `/usr/libexec/path_helper`.
-path+=~/.local/bin; export path
+path+=${HOME}/.local/bin; 
+path+=${HOME}/.cargo/bin; 
+export path
 
 # Be sure to set any supplemental completions directories before compinit is run.
 fpath=(~/completions(-/FN) $fpath)
@@ -28,6 +30,4 @@ if type antidote &>/dev/null; then
   zstyle ':omz:plugins:nvm' lazy-cmd sfdx
   antidote load
 fi
-
-alias vim=nvim
 
