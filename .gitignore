@@ -25,6 +25,7 @@
 .sfdx
 .ssh
 .terminfo
+.Trash
 .vim
 .viminfo
 .vimrc
