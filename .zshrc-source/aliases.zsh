@@ -1,4 +1,4 @@
 #!/usr/bin/env zsh
 
  alias vim=nvim
- alias ls="exa -l"
+ alias ls="exa -lhF"
